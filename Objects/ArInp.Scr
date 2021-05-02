@@ -1,0 +1,3 @@
+--create .\Objects\ftx.lib
+.\objects\startup.o
+.\objects\rtx_conf_lpc21xx.o
