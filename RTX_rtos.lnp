@@ -1,0 +1,9 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\rtx_conf_lpc21xx.o"
+".\led_blink_main.o"
+C:\Keil_v5_arm\ARM\RV31\LIB\RTX_ARM_L.LIB
+--strict --scatter ".\RTX_rtos.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\RTX_rtos.map" -o .\RTX_rtos.axf

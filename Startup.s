@@ -254,9 +254,9 @@ DAbt_Addr       DCD     DAbt_Handler
                 DCD     0                      ; Reserved Address 
 IRQ_Addr        DCD     IRQ_Handler
 FIQ_Addr        DCD     FIQ_Handler
-
+ IMPORT SWI_Handler
 Undef_Handler   B       Undef_Handler
-SWI_Handler     B       SWI_Handler
+;SWI_Handler     B       SWI_Handler
 PAbt_Handler    B       PAbt_Handler
 DAbt_Handler    B       DAbt_Handler
 IRQ_Handler     B       IRQ_Handler

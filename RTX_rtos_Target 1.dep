@@ -1,0 +1,12 @@
+Dependencies for Project 'RTX_rtos', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x60943F53)(--cpu ARM7TDMI --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil_v5_arm\ARM\RV31\INC-I C:\Keil_v5_arm\ARM\CMSIS\Include-I C:\Keil_v5_arm\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\RTX_Conf_LPC21xx.c)(0x559D01C2)(-c --cpu ARM7TDMI -D__RTX -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5_arm\ARM\RV31\INC-I C:\Keil_v5_arm\ARM\CMSIS\Include-I C:\Keil_v5_arm\ARM\Inc\Philips-o .\rtx_conf_lpc21xx.o --omf_browse .\rtx_conf_lpc21xx.crf --depend .\rtx_conf_lpc21xx.d)
+I (C:\Keil_v5_arm\ARM\RV31\INC\RTL.h)(0x532C1630)
+I (C:\Keil_v5_arm\ARM\Inc\Philips\LPC21xx.H)(0x532C1500)
+I (C:\Keil_v5_arm\ARM\RV31\INC\RTX_lib.c)(0x532C1630)
+F (.\main.c)(0x6094487D)(-c --cpu ARM7TDMI -D__RTX -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5_arm\ARM\RV31\INC-I C:\Keil_v5_arm\ARM\CMSIS\Include-I C:\Keil_v5_arm\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (C:\Keil_v5_arm\ARM\RV31\INC\RTL.H)(0x532C1630)
+F (.\led_blink_main.c)(0x609650B2)(-c --cpu ARM7TDMI -D__RTX -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5_arm\ARM\RV31\INC-I C:\Keil_v5_arm\ARM\CMSIS\Include-I C:\Keil_v5_arm\ARM\Inc\Philips-o .\led_blink_main.o --omf_browse .\led_blink_main.crf --depend .\led_blink_main.d)
+I (C:\Keil_v5_arm\ARM\RV31\INC\RTL.H)(0x532C1630)
+I (C:\Keil_v5_arm\ARM\Inc\Philips\LPC21XX.H)(0x532C1500)
+F (.\interrupt_driver.c)(0x60963106)(-c --cpu ARM7TDMI -D__RTX -D__EVAL -g -O0 --apcs=interwork -I C:\Keil_v5_arm\ARM\RV31\INC-I C:\Keil_v5_arm\ARM\CMSIS\Include-I C:\Keil_v5_arm\ARM\Inc\Philips-o .\interrupt_driver.o --omf_browse .\interrupt_driver.crf --depend .\interrupt_driver.d)
